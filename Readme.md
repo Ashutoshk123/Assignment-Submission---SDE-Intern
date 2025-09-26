@@ -6,7 +6,6 @@ A Django-based alerting platform for managing alerts, escalations, and dashboard
 - User authentication and admin interface
 - Alert creation and management
 - Escalation flow tracking (e.g., `alert_escalated` flags)
-- Basic dashboard and static assets under `core/static/core`
 - Django ORM with SQLite (default)
 
 ## Tech Stack
@@ -128,6 +127,7 @@ Inspect models in `core/models.py` for authoritative structure.
 
 ## Acknowledgements
 Built with Django.
+
 
 
 
