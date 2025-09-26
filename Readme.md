@@ -126,10 +126,9 @@ Inspect models in `core/models.py` for authoritative structure.
 - Migration conflicts: delete `db.sqlite3` in dev only, then re-run `migrate` (you will lose data).
 - Static files not loading: ensure `DEBUG=1` in dev, check `STATIC_URL` and app `INSTALLED_APPS` include `django.contrib.staticfiles`.
 
-## License
-MIT (or your preferred license). Update this section as needed.
 
 ## Acknowledgements
 Built with Django.
+
 
 
