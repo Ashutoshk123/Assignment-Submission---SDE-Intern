@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:700');
+body {
+  background: #222 !important;
+}
+.dashboard-header {
+  margin-bottom: 30px;
+}
+.dashboard-table-container {
+  background: rgba(30,30,40,0.98);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.28);
+  padding: 20px 24px;
+}
+.cube-table th, .cube-table td {
+  font-family: 'Fira Mono', monospace;
+  font-size: 1.05rem;
+  color: #e0f7fa;
+  background: transparent !important;
+  border-bottom: none !important;
+}
+.cube-cell {
+  background: linear-gradient(120deg, #2323c0cc 0%, #212838ee 100%);
+  border: 2px solid #0ff;
+  border-radius: 0;
+  box-shadow: 3px 3px 0 0 #444;
+  padding: 8px 20px;
+  display: inline-block;
+}
+.alert-row:hover .cube-cell {
+  box-shadow: 7px 7px 0 0 #0ff;
+}
+.cube-btn-green, .cube-btn-grey, .cube-btn-red {
+  display: inline-block;
+  padding: 10px 24px;
+  font-family: 'Fira Mono', monospace;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 0;
+  border: 2px solid #00e7ff;
+  background: linear-gradient(90deg,#00e7ff,#2323c0);
+  color: #fff;
+  box-shadow: 4px 4px 0 0 #0ff;
+  transition: box-shadow 0.2s, background 0.2s;
+  letter-spacing: 1px;
+}
+.cube-btn-green {
+  border-color: #38ef7d;
+  background: linear-gradient(90deg,#38ef7d,#0ff);
+}
+.cube-btn-grey {
+  border-color: #bbb;
+  background: linear-gradient(90deg,#bbb,#222);
+}
+.cube-btn-red {
+  border-color: #dc3545;
+  background: linear-gradient(90deg,#dc3545,#2323c0);
+}
+.cube-btn-green:hover, .cube-btn-grey:hover, .cube-btn-red:hover {
+  box-shadow: 8px 8px 0 0 #0ff;
+  background: linear-gradient(120deg,#2323c0,#00e7ff,#2323c0);
+  color: #fff;
+}
+.cube-severity-info {
+  border-color: #0dcaf0 !important;
+}
+.cube-severity-warning {
+  border-color: #ffc107 !important;
+}
+.cube-severity-critical {
+  border-color: #dc3545 !important;
+}
+.alert-active td {
+  background: #fff3cd !important;
+  color: #333 !important;
+}
