@@ -1,4 +1,4 @@
-# Alerting Platform (Django)
+# Alerting_Platform
 
 A Django-based alerting platform for managing alerts, escalations, and dashboards. This README provides quick start instructions (Windows PowerShell), project structure, configuration, and common operational tasks.
 
@@ -132,3 +132,4 @@ MIT (or your preferred license). Update this section as needed.
 
 ## Acknowledgements
 Built with Django.
+
