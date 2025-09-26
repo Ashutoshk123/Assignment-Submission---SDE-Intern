@@ -19,7 +19,6 @@ A Django-based alerting platform for managing alerts, escalations, and dashboard
 alerting_platform/
   config/               # Project settings, URLs, ASGI/WSGI
   core/                 # Main app: models, views, templates, static
-    static/core/        # CSS and static assets
     templates/core/     # HTML templates (add your pages here)
   db.sqlite3            # Dev database (autocreated)
   manage.py             # Django management CLI
@@ -129,6 +128,7 @@ Inspect models in `core/models.py` for authoritative structure.
 
 ## Acknowledgements
 Built with Django.
+
 
 
 
