@@ -99,7 +99,6 @@ You can load `.env` with `python-dotenv` or integrate in `settings.py`.
 - `alerting_platform/core/models.py`: Alert models, escalation flags, timestamps
 - `alerting_platform/core/views.py`: Views for dashboard and alert operations
 - `alerting_platform/config/urls.py`: Routes for core app and admin
-- `alerting_platform/core/static/core/`: CSS like `alert_dashboard.css`, `login.css`
 - `alerting_platform/core/templates/core/`: HTML templates
 
 ## Data Model
@@ -132,4 +131,5 @@ MIT (or your preferred license). Update this section as needed.
 
 ## Acknowledgements
 Built with Django.
+
 
